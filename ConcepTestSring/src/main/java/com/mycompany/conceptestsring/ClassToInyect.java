@@ -6,7 +6,7 @@
 package com.mycompany.conceptestsring;
 
 /**
- *
+ * Change comments
  * @author Israel
  */
 public class ClassToInyect implements MessageI {
