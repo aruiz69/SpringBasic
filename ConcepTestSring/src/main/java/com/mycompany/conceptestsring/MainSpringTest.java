@@ -15,6 +15,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class MainSpringTest {
 
     public static void main(String[] arg) {
+        
         ApplicationContext ctx = new ClassPathXmlApplicationContext("/com/mycompany/resources/contexApp.xml");
         MessageI msg = (MessageI) ctx.getBean("bean2");
         System.out.println("Message =>" + msg.helloSpring());
