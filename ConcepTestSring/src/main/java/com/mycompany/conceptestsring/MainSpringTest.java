@@ -19,6 +19,8 @@ public class MainSpringTest {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("/com/mycompany/resources/contexApp.xml");
         MessageI msg = (MessageI) ctx.getBean("bean2");
         System.out.println("Message =>" + msg.helloSpring());
+        String str = "Este es un buen dia para aprender java";
+        System.out.println("La longitud de la cadena es " + str.length());
     }
 
 }
